@@ -1,3 +1,4 @@
+
 .header {
   background-image: url(./assets/books.webp);
   top: 0;
@@ -115,4 +116,80 @@ z-index: 1;
 .card__face--back--back {
   transform: rotateY(0.5turn);
   z-index: 50;
+=======
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: grey;
+}
+
+#container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 20px;
+    
+}
+
+.top {
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+.img-1 {
+    width: 350px;
+    border-radius: 200px;
+}
+.img-2 {
+    width: 370px;
+    height: 350px;
+    border-radius: 200px;
+}
+.img-3 {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.offer-list {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.list {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width:400px;
+}
+
+.icons {
+    width: 15px;
+    position:relative;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+
 }
